@@ -1,0 +1,17 @@
+name: GiveMeSoup
+version: 1.0.0
+description: Desc
+author: cj89898
+website: http://www.cjservers.net/
+main: net.cjservers.givemesoup.GiveMeSoup
+api-version: 1.15
+commands:
+  givemesoup:
+    description: Fills inventory with soup
+    usage: '/givemesoup'
+    permission: "givemesoup.access"
+
+permissions:
+  givemesoup.access:
+    description: Access to /givemesoup
+    default: op
